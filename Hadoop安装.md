@@ -43,7 +43,7 @@ java -version
 安装[镜像](http://hadoop.apache.org/releases.html)可以在Apache的官方网站获取,当前稳定版为2.9
 > 版本选择：因为我先装的HBase-1.2.6，在考虑[兼容性](http://hbase.apache.org/book.html#configuration)时只能选用Hadoop2.7版本。
 ### 2. 安装
-我选择解压到`/usr/local\`下
+我选择解压到`/usr/local/`下
 ```
 sudo tar xzf {hadoop镜像存放目录} -C /usr/local/
 cd /usr/local/
@@ -94,7 +94,7 @@ sudo chown -R {你的用户名} ./hadoop   # 修改文件权限
 ```
 接着开启NameNode和DataNode的守护进程
 ```
-./sbin/start-dfs.sh
+./sbin/start-dfs.sh     #stop-dfs.sh可关闭进程
 ```
 若出现如下SSH提示，输入yes即可。
 

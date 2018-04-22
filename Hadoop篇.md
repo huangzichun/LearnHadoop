@@ -103,8 +103,12 @@ sudo chown -R {你的用户名} ./hadoop   # 修改文件权限
 成功启动后，可以访问 Web 界面 http://localhost:50070 查看 NameNode 和 Datanode 信息，还可以在线查看 HDFS 中的文件。
 
 ### 伪分布式运行
+1. jar包上传
 
-
+进入`/usr/lcoal/hadoop`目录下
+```
+./bin/hadoop jar {你要部署的jar包路径}
+```
 
 
 

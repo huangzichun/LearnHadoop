@@ -144,7 +144,7 @@ export JAVA_HOME=${your JAVA_HOME_PATH}
 进入`/usr/lcoal/hadoop`目录下
 ```shell
 ./bin/hadoop jar {你要部署的jar包路径}
-./bin/hadoop jar share/hadoop/mapreduce/hadoop-mapreduce-examples-${your hadoop version}.jar wordcount ${your input file path} ${your output file path}
+./bin/hadoop jar ./share/hadoop/mapreduce/hadoop-mapreduce-examples-${your hadoop version}.jar wordcount ${your input file path} ${your output file path}
 ```
 
 
